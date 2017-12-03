@@ -1,0 +1,7 @@
+<h1>Listing users</h1>
+
+<p><%= @users.any? %></p>
+
+<% @users.each do |user| %>
+  <p>Username: <%= user.username %></p>
+<% end %>
